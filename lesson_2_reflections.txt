@@ -1,0 +1,29 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+     git init prepares a directory for its intiail commit by setting
+     up the metdata. Otherwise, git would have no way of knowing that
+     you intended this directory to be a repository.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+     The staging area represents files that you are ready to commit to
+     the repository. This indicates they are at some logical
+     state. Files in the working directory might include things you
+     never intend to commit, such as random notes, test data,
+     etc. This also allows you to commit files separately when
+     desired.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
