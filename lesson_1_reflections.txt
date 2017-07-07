@@ -1,0 +1,53 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The primary benefit is reducing the number of lines that need to
+    be examined. A secondary benefit is seeing the changes adjacent
+    to each other.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You could see the reason for various changes over time. You could
+    compare two versions to see exactly what has changed. Possibly
+    avoid making a mistake that was fixed in the past.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: you can decide when the size of the commit feels
+    right. Avoid saving intermediate versions that are not logically
+    cohesive. Avoid saving intermediate versions with just tiny
+    changes, introducing too much granularity to the history.
+
+    Cons: you might not commit frequently enough. Sometimes when
+    working on a larger feature or bug fix, you might have a good
+    intermediate solution that gets broken by later work, and you have
+    no good way to go back if you don't commit very often.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Different use models make sense. Often in Google Docs, a file
+    stands alone so it isn't important to save multiple files
+    together. In software development, it is very common to change
+    multiple files in one logical change.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    get log shows the history of a repository from oldest to newest.
+
+    get diff allows you to see the differences between two commit IDs.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Being able to go back to a "known good" version of code makes it
+    much safer to experiment with a riskier code change.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to write some scripts to update my investments weekly.
+    Script to scrape quotes from Yahoo finance.
+    Script to scrape foreign exchange rates from somewhere.
