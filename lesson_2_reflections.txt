@@ -37,5 +37,10 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+     The changes from the named branch are merged into the current
+     branch. It is important to check what branch is checked out
+     before doing a merge. Git will create a new parent relationship
+     that allows you to see the history of both branches.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
