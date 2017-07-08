@@ -42,7 +42,11 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    I can remember collaborating by passing around a set of source
+    code using a zip or tar bundle.  Then someone had the job of
+    manually sync'ing all the changes from time to time.  It was
+    perhaps easier than learning all the commands of a source control
+    system like git, but the merging was very error prone.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
