@@ -7,7 +7,14 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    Every time you pull changes, you may have to merge. If the merge
+    requires manual action, then it could delay the work you are doing
+    locally. 
+
+    Also, when I am working on a significant local change, I often
+    don't want to update from the master/remote very often. If
+    something breaks, then I don't know if I caused the problem or
+    something I picked up from the remote caused the problem.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
