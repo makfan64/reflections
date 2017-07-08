@@ -1,4 +1,4 @@
-What happens when you initialize a repository? Why do you need to do it?
+GWhat happens when you initialize a repository? Why do you need to do it?
 
      git init prepares a directory for its intiail commit by setting
      up the metdata. Otherwise, git would have no way of knowing that
@@ -44,3 +44,8 @@ the diagram the way we do?
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+     Many merges can be completed automatically with little to no
+     risk, and it saves time to do so. Manual merges can actually
+     introduce subtle errors if the merger doesn't examine the
+     differences very carefully after merging.
