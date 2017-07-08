@@ -29,6 +29,11 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
+     I was very confused about the detached head concept, but now that
+     I have seen how commits point back to the previous commit and
+     that branches allow two or more commits to point back to the same
+     parent commit, I understand the concept.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
